@@ -31,5 +31,17 @@ namespace PCBuild.nl_Installer
             Download_neo4j f1 = new Download_neo4j();
             f1.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Download_python f2 = new Download_python();
+            f2.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Download_rstudio f3 = new Download_rstudio();
+            f3.Show();
+        }
     }
 }

@@ -18,3 +18,5 @@ E:\Documents\GitHub\PCBuild.nl-installer\PCBuild.nl Installer\obj\Debug\PCBuild.
 E:\Documents\GitHub\PCBuild.nl-installer\PCBuild.nl Installer\obj\Debug\PCBuild.nl_Installer.Form1.resources
 E:\Documents\GitHub\PCBuild.nl-installer\PCBuild.nl Installer\obj\Debug\PCBuild.nl_Installer.Properties.Resources.resources
 E:\Documents\GitHub\PCBuild.nl-installer\PCBuild.nl Installer\obj\Debug\PCBuild.nl Installer.csproj.GenerateResource.Cache
+E:\Documents\GitHub\PCBuild.nl-installer\PCBuild.nl Installer\obj\Debug\PCBuild.nl_Installer.Download_python.resources
+E:\Documents\GitHub\PCBuild.nl-installer\PCBuild.nl Installer\obj\Debug\PCBuild.nl_Installer.Download_rstudio.resources

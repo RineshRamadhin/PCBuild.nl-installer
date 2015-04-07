@@ -14,13 +14,13 @@ using System.Diagnostics;
 
 namespace PCBuild.nl_Installer
 {
-    public partial class Download_neo4j : Form
+    public partial class Download_python : Form
     {
         // global references
         WebClient webClient;
         Stopwatch sw = new Stopwatch();
 
-        public Download_neo4j()
+        public Download_python()
         {
             InitializeComponent();
         }
@@ -88,7 +88,7 @@ namespace PCBuild.nl_Installer
         private void button1_Click(object sender, EventArgs e)
         {
             button1.Enabled = false;
-            DownloadFile("http://neo4j.com/artifact.php?name=neo4j-community_windows_2_2_0.exe", @"C:\PCBuild.nl\neo4j.exe");
+            DownloadFile("http://download.thinkbroadband.com/50MB.zip", @"C:\PCBuild.nl\python.zip");
         }
 
         // sluit het venster

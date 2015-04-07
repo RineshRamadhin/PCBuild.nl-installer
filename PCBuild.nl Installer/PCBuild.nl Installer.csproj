@@ -44,6 +44,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Download_rstudio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Download_rstudio.Designer.cs">
+      <DependentUpon>Download_rstudio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Download_python.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Download_python.Designer.cs">
+      <DependentUpon>Download_python.cs</DependentUpon>
+    </Compile>
     <Compile Include="Download_neo4j.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +70,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Download_rstudio.resx">
+      <DependentUpon>Download_rstudio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Download_python.resx">
+      <DependentUpon>Download_python.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Download_neo4j.resx">
       <DependentUpon>Download_neo4j.cs</DependentUpon>
     </EmbeddedResource>
