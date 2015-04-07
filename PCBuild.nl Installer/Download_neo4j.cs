@@ -88,7 +88,7 @@ namespace PCBuild.nl_Installer
         private void button1_Click(object sender, EventArgs e)
         {
             button1.Enabled = false;
-            DownloadFile("http://download.thinkbroadband.com/50MB.zip", @"C:\PCBuild.nl\test.zip");
+            DownloadFile("http://download.thinkbroadband.com/50MB.zip", @"C:\PCBuild.nl\neo4j.zip");
         }
 
         // sluit het venster

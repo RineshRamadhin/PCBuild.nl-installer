@@ -8,3 +8,13 @@ E:\Documents\Projects\Visual Studio 2013\PCBuild.nl Installer\obj\Debug\PCBuild.
 E:\Documents\Projects\Visual Studio 2013\PCBuild.nl Installer\obj\Debug\PCBuild.nl Installer.exe
 E:\Documents\Projects\Visual Studio 2013\PCBuild.nl Installer\obj\Debug\PCBuild.nl Installer.pdb
 E:\Documents\Projects\Visual Studio 2013\PCBuild.nl Installer\obj\Debug\PCBuild.nl_Installer.Download_neo4j.resources
+E:\Documents\GitHub\PCBuild.nl-installer\PCBuild.nl Installer\bin\Debug\PCBuild.nl Installer.exe.config
+E:\Documents\GitHub\PCBuild.nl-installer\PCBuild.nl Installer\obj\Debug\PCBuild.nl Installer.exe
+E:\Documents\GitHub\PCBuild.nl-installer\PCBuild.nl Installer\obj\Debug\PCBuild.nl Installer.pdb
+E:\Documents\GitHub\PCBuild.nl-installer\PCBuild.nl Installer\bin\Debug\PCBuild.nl Installer.exe
+E:\Documents\GitHub\PCBuild.nl-installer\PCBuild.nl Installer\bin\Debug\PCBuild.nl Installer.pdb
+E:\Documents\GitHub\PCBuild.nl-installer\PCBuild.nl Installer\obj\Debug\PCBuild.nl Installer.csprojResolveAssemblyReference.cache
+E:\Documents\GitHub\PCBuild.nl-installer\PCBuild.nl Installer\obj\Debug\PCBuild.nl_Installer.Download_neo4j.resources
+E:\Documents\GitHub\PCBuild.nl-installer\PCBuild.nl Installer\obj\Debug\PCBuild.nl_Installer.Form1.resources
+E:\Documents\GitHub\PCBuild.nl-installer\PCBuild.nl Installer\obj\Debug\PCBuild.nl_Installer.Properties.Resources.resources
+E:\Documents\GitHub\PCBuild.nl-installer\PCBuild.nl Installer\obj\Debug\PCBuild.nl Installer.csproj.GenerateResource.Cache
