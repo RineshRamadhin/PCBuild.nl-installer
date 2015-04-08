@@ -88,7 +88,7 @@ namespace PCBuild.nl_Installer
         private void button1_Click(object sender, EventArgs e)
         {
             button1.Enabled = false;
-            DownloadFile("http://download.thinkbroadband.com/50MB.zip", @"C:\PCBuild.nl\rstudio.zip");
+            DownloadFile("http://cran.r-project.org/bin/windows/base/R-3.1.3-win.exe", @"C:\PCBuild.nl\R.exe");
         }
 
         // sluit het venster

@@ -88,7 +88,7 @@ namespace PCBuild.nl_Installer
         private void button1_Click(object sender, EventArgs e)
         {
             button1.Enabled = false;
-            DownloadFile("http://download.thinkbroadband.com/50MB.zip", @"C:\PCBuild.nl\python.zip");
+            DownloadFile("https://www.python.org/ftp/python/3.4.3/python-3.4.3.msi", @"C:\PCBuild.nl\python.msi");
         }
 
         // sluit het venster
