@@ -26,3 +26,5 @@ E:\Documents\GitHub\PCBuild.nl-installer\PCBuild.nl Installer\bin\Debug\PCBuild.
 E:\Documents\GitHub\PCBuild.nl-installer\PCBuild.nl Installer\obj\Debug\PCBuild.nl Installer.TrustInfo.xml
 E:\Documents\GitHub\PCBuild.nl-installer\PCBuild.nl Installer\obj\Debug\PCBuild.nl Installer.exe.manifest
 E:\Documents\GitHub\PCBuild.nl-installer\PCBuild.nl Installer\obj\Debug\PCBuild.nl Installer.application
+E:\Documents\GitHub\PCBuild.nl-installer\PCBuild.nl Installer\obj\Debug\PCBuild.nl_Installer.Install_neo4j.resources
+E:\Documents\GitHub\PCBuild.nl-installer\PCBuild.nl Installer\obj\Debug\PCBuild.nl_Installer.Install_rstudio.resources

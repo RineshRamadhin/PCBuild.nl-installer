@@ -59,10 +59,26 @@ namespace PCBuild.nl_Installer
             }
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Install_neo4j f4 = new Install_neo4j();
+            f4.Show();
+        }
+
         private void button4_Click(object sender, EventArgs e)
         {
             Install_python f5 = new Install_python();
             f5.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Install_rstudio f6 = new Install_rstudio();
+            f6.Show();
+        }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PCBuild.nl Installer.exe" size="1516032">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PCBuild.nl Installer.exe" size="1795072">
       <assemblyIdentity name="PCBuild.nl Installer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>CcNrOkTyIfu1asGhgPYrrBwMdxf5+eu8/HLEHHCr974=</dsig:DigestValue>
+        <dsig:DigestValue>n46msMgPMXzJh+ZFSTq4qI6dA6lkn+cK0Og3YI6DmSg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

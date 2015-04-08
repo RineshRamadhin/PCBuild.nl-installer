@@ -88,7 +88,7 @@ namespace PCBuild.nl_Installer
         private void button1_Click(object sender, EventArgs e)
         {
             button1.Enabled = false;
-            DownloadFile("http://neo4j.com/artifact.php?name=neo4j-community_windows_2_2_0.exe", @"C:\PCBuild.nl\neo4j.exe");
+            DownloadFile("http://neo4j.com/artifact.php?name=neo4j-community_windows_2_2_0.exe", @"C:\PCBuild.nl\Neo4j.exe");
         }
 
         // sluit het venster

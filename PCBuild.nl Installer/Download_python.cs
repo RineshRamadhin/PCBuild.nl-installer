@@ -153,9 +153,9 @@ namespace PCBuild.nl_Installer
         private void button1_Click(object sender, EventArgs e)
         {
             button1.Enabled = false;
-            DownloadFile("http://www.python.org/ftp/python/3.4.3/python-3.4.3.msi", @"C:\PCBuild.nl\python.msi");
-            DownloadScript("http://download.thinkbroadband.com/10MB.zip", @"C:\PCBuild.nl\zip1.zip");
-            DownloadScript("http://download.thinkbroadband.com/5MB.zip", @"C:\PCBuild.nl\zip2.zip");       
+            DownloadFile("http://www.python.org/ftp/python/3.4.3/python-3.4.3.msi", @"C:\PCBuild.nl\Python.msi");
+            DownloadScript("http://download.thinkbroadband.com/10MB.zip", @"C:\PCBuild.nl\pythonfile.zip");
+            DownloadScript("http://download.thinkbroadband.com/5MB.zip", @"C:\PCBuild.nl\pythonscript1.zip");       
         }
 
         // sluit het venster
