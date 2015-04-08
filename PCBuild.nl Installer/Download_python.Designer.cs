@@ -48,7 +48,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(326, 47);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Klik op Download om Python en de bijbehorende scripts te downloaden.";
+            this.label1.Text = "Klik op Download om Python en de bijbehorende bestanden te downloaden.";
             // 
             // button1
             // 

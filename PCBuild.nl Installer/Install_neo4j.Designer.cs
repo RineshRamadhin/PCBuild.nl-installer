@@ -54,7 +54,7 @@
             this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.label1.Size = new System.Drawing.Size(197, 50);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Volg de onderstaande stappen om Neo4j en de bijbehorende scripts te installeren.";
+            this.label1.Text = "Volg de onderstaande stappen om Neo4j te installeren.";
             // 
             // button1
             // 
@@ -100,6 +100,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Install_neo4j";

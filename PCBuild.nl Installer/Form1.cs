@@ -49,7 +49,7 @@ namespace PCBuild.nl_Installer
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (MessageBox.Show("Tijdelijke bestanden verwijderen?",
+            if (MessageBox.Show("Tijdelijke bestanden verwijderen?" + "\n" + "\n" + "Pad naar tijdelijke bestanden: C:\\PCBuild.nl\\",
                        "PCBuild.nl - Opruimer",
                         MessageBoxButtons.YesNo,
                         MessageBoxIcon.Information) == DialogResult.Yes)
@@ -79,6 +79,11 @@ namespace PCBuild.nl_Installer
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://www.pcbuild.nl");
         }
     }
 }
