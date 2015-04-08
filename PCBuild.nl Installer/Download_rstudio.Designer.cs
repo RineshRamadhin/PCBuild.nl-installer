@@ -37,6 +37,8 @@
             this.labelPerc = new System.Windows.Forms.Label();
             this.labelDownloaded = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.labelPerc2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,9 +46,9 @@
             // 
             this.label1.Location = new System.Drawing.Point(9, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(235, 47);
+            this.label1.Size = new System.Drawing.Size(326, 47);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Venster om R te downloaden";
+            this.label1.Text = "Klik op Download om R en de bijbehorende scripts te downloaden.";
             // 
             // button1
             // 
@@ -111,12 +113,32 @@
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(12, 60);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(98, 13);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "Script downloaden:";
+            // 
+            // labelPerc2
+            // 
+            this.labelPerc2.AutoSize = true;
+            this.labelPerc2.Location = new System.Drawing.Point(182, 60);
+            this.labelPerc2.Name = "labelPerc2";
+            this.labelPerc2.Size = new System.Drawing.Size(0, 13);
+            this.labelPerc2.TabIndex = 9;
+            this.labelPerc2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
             // Download_rstudio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(404, 186);
+            this.Controls.Add(this.labelPerc2);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.labelDownloaded);
             this.Controls.Add(this.labelPerc);
@@ -147,5 +169,7 @@
         private System.Windows.Forms.Label labelPerc;
         private System.Windows.Forms.Label labelDownloaded;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label labelPerc2;
     }
 }

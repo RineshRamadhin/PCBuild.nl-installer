@@ -46,7 +46,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(235, 47);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Venster om Neo4J te downloaden";
+            this.label1.Text = "Klik op Download om Neo4J te downloaden.";
             // 
             // button1
             // 
