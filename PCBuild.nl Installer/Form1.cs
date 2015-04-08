@@ -43,5 +43,16 @@ namespace PCBuild.nl_Installer
             Download_rstudio f3 = new Download_rstudio();
             f3.Show();
         }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("Tijdelijke bestanden verwijderen?",
+                       "PCBuild.nl - Opruimer",
+                        MessageBoxButtons.YesNo,
+                        MessageBoxIcon.Information) == DialogResult.Yes)
+            {
+                e.Cancel = true;
+            }
+        }
     }
 }
