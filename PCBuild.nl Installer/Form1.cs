@@ -51,8 +51,15 @@ namespace PCBuild.nl_Installer
                         MessageBoxButtons.YesNo,
                         MessageBoxIcon.Information) == DialogResult.Yes)
             {
-                e.Cancel = true;
+                // Delete the folder 'c:\Projects' and all of its content
+                Directory.Delete(@"C:\PCBuild.nl\", true);
             }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Install_python f5 = new Install_python();
+            f5.Show();
         }
     }
 }
