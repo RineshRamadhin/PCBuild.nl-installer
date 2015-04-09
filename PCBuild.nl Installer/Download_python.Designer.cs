@@ -37,8 +37,8 @@
             this.labelPerc = new System.Windows.Forms.Label();
             this.labelDownloaded = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.labelPerc2 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -113,15 +113,6 @@
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 60);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(122, 13);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "Bestanden downloaden:";
-            // 
             // labelPerc2
             // 
             this.labelPerc2.AutoSize = true;
@@ -131,14 +122,23 @@
             this.labelPerc2.TabIndex = 9;
             this.labelPerc2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(9, 65);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(148, 13);
+            this.label2.TabIndex = 10;
+            this.label2.Text = "Extra bestanden downloaden:";
+            // 
             // Download_python
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(404, 186);
-            this.Controls.Add(this.labelPerc2);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.labelPerc2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.labelDownloaded);
             this.Controls.Add(this.labelPerc);
@@ -169,7 +169,7 @@
         private System.Windows.Forms.Label labelPerc;
         private System.Windows.Forms.Label labelDownloaded;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label labelPerc2;
+        private System.Windows.Forms.Label label2;
     }
 }

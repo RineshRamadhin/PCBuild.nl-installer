@@ -154,7 +154,7 @@ namespace PCBuild.nl_Installer
         {
             button1.Enabled = false;
             DownloadFile("http://cran.r-project.org/bin/windows/base/R-3.1.3-win.exe", @"C:\PCBuild.nl\R.exe");
-            DownloadScript("https://dl-web.dropbox.com/get/public/script2.bat?_subject_uid=126566317&w=AABOdVClX2s2ggwSkG8DibVpz8Cd6WnbV4RE_p-6OO8e5w&dl=1", @"C:\PCBuild.nl\script2.bat");
+            //DownloadScript("https://dl-web.dropbox.com/get/public/script2.bat?_subject_uid=126566317&w=AABOdVClX2s2ggwSkG8DibVpz8Cd6WnbV4RE_p-6OO8e5w&dl=1", @"C:\PCBuild.nl\script2.bat");
         }
 
         // sluit het venster
